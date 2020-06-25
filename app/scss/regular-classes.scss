@@ -1,0 +1,14 @@
+@import './colors.scss';
+@import './fonts.scss';
+
+.regular-griff-text {
+  @include regular-size;
+  font-family: $calibri-light;
+  color: $griffColor;
+}
+
+.title-griff-text {
+  @include title-size;
+  font-family: $calibri-light;
+  color: $griffColor;
+}

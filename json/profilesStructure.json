@@ -1,0 +1,77 @@
+{
+  "choice": [
+    {"title": "Кабинет менеджера дистанционного обучения", "a": "profiles/odo", "color": "tur", "router": true},
+    {"title": "Кабинет менеджера отдела реализации программ", "a": "profiles/orp", "color": "sea", "router": true},
+    {"title": "Кабинет сотрудника отдела оценки", "a": "profiles/mark", "color": "blue", "router": true},
+    {"title": "Кабинет сотрудника отдела образовательных проектов", "a": "profiles/obp", "color": "azure", "router": true}
+  ],
+  "orp": [
+    {
+      "title": "Отчёты по группе",
+      "color": "tur",
+      "array": [
+        {"val": "Анкета", "link": "orp/group_polls_report"}
+      ]
+    },
+    {
+      "title": "Инструменты",
+      "color": "lilac",
+      "array": [
+        {"val": "Выгрузка вопросов по тесту", "link": "orp/assessment_question"},
+        {"val": "Активация итогового теста и анкеты", "link": "orp/course_set_active"}
+      ]
+    }
+  ],
+  "obp": [
+    {
+      "title": "Отчёты по группе",
+      "color": "sea",
+      "array": [
+        {"val": "Анкета", "link": "obp/group_polls_report"}
+      ]
+    },
+    {
+      "title": "Инструменты",
+      "color": "lilac",
+      "array": [
+        {"val": "Выгрузка результатов опроса", "link": "obp/create_excel"},
+        {"val": "Заявки выпускников президентской программы", "link": "obp/pp_request"}
+      ]
+    }
+  ],
+  "mark": [
+    {
+      "title": "Отчёты по группе",
+      "color": "azure",
+      "array": [
+        {"val": "Опрос 360", "link": "mark/group_polls_report"}
+      ]
+    },
+    {
+      "title": "Инструменты",
+      "color": "lilac",
+      "array": [
+        {"val": "Отчет по оценке 360", "link": "odo/mark_360"}
+      ]
+    }
+  ],
+  "odo": [
+    {
+      "title": "Отчёты по группе",
+      "color": "tur",
+      "array": [
+        {"val": "Анкета", "link": "odo/group_polls_report"}
+      ]
+    },
+    {
+      "title": "Инструменты",
+      "color": "lilac",
+      "array": [
+        {"val": "Выгрузка вопросов по тесту", "link": "odo/assessment_question"},
+        {"val": "Активация итогового теста и анкеты", "link": "odo/course_set_active"},
+        {"val": "Отчет по оценке 360", "link": "odo/mark_360"},
+        {"val": "Импорт слушателей", "link": "odo/collaborators_import"}
+      ]
+    }
+  ]
+}

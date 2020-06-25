@@ -1,0 +1,173 @@
+@mixin title-color {
+  &_lilac {
+    &:hover {
+      color: $lilacColor;
+    }
+    &:before {
+      border-left-color: $lilacColor;
+      background-color: $lilacColor;        
+    }
+    &[list]:hover:after {
+      background-image: url(./image/lilac.png);      
+    }
+  }
+  &_sea {
+    &:hover {
+      color: $seaColor;
+    }
+    &:before {
+      border-left-color: $seaColor;
+      background-color: $seaColor;        
+    }
+    &[list]:hover:after {
+      background-image: url(./image/sea.png);      
+    }
+  }
+  &_red {
+    &:hover {
+      color: $redColor;
+    }
+    &:before {
+      border-left-color: $redColor;
+      background-color: $redColor;        
+    }
+    &[list]:hover:after {
+      background-image: url(./image/red.png);      
+    }
+  }
+  &_tur {
+    &:hover {
+      color: $turColor;
+    }
+    &:before {
+      border-left-color: $turColor;
+      background-color: $turColor;        
+    }
+    &[list]:hover:after {
+      background-image: url(./image/tur.png);      
+    }
+  }
+  &_blue {
+    &:hover {
+      color: $blueColor;
+    }
+    &:before {
+      border-left-color: $blueColor;
+      background-color: $blueColor;        
+    }
+    &[list]:hover:after {
+      background-image: url(./image/blue.png);      
+    }
+  }
+  &_azure {
+    &:hover {
+      color: $azureColor;
+    }
+    &:before {
+      border-left-color: $azureColor;
+      background-color: $azureColor;        
+    }
+    &[list]:hover:after {
+      background-image: url(./image/azure.png);      
+    }
+  }
+  &_yellow {
+    &:hover {
+      color: $yellowColor;
+    }
+    &:before {
+      border-left-color: $yellowColor;
+      background-color: $yellowColor;        
+    }
+    &[list]:hover:after {
+      background-image: url(./image/yellow.png);      
+    }
+  }
+  &_purple {
+    &:hover {
+      color: $purpleColor;
+    }
+    &:before {
+      border-left-color: $purpleColor;
+      background-color: $purpleColor;        
+    }
+    &[list]:hover:after {
+      background-image: url(./image/purple.png);      
+    }
+  }  
+}
+
+@mixin option-color {
+  &_lilac {
+    &:hover {
+      color: $lilacColor;
+    }
+    &:hover:before, &:hover:after {
+      border-left-color: $lilacColor;
+      background-color: $lilacColor;        
+    }
+  }
+  &_sea {
+    &:hover {
+      color: $seaColor;
+    }
+    &:hover:before, &:hover:after {
+      border-left-color: $seaColor;
+      background-color: $seaColor;        
+    }
+  }
+  &_red {
+    &:hover {
+      color: $redColor;
+    }
+    &:hover:before, &:hover:after {
+      border-left-color: $redColor;
+      background-color: $redColor;        
+    }
+  }
+  &_tur {
+    &:hover {
+      color: $turColor;
+    }
+    &:hover:before, &:hover:after {
+      border-left-color: $turColor;
+      background-color: $turColor;        
+    }
+  }
+  &_blue {
+    &:hover {
+      color: $blueColor;
+    }
+    &:hover:before, &:hover:after {
+      border-left-color: $blueColor;
+      background-color: $blueColor;        
+    }
+  }
+  &_azure {
+    &:hover {
+      color: $azureColor;
+    }
+    &:hover:before, &:hover:after {
+      border-left-color: $azureColor;
+      background-color: $azureColor;        
+    }
+  }
+  &_yellow {
+    &:hover {
+      color: $yellowColor;
+    }
+    &:hover:before, &:hover:after {
+      border-left-color: $yellowColor;
+      background-color: $yellowColor;        
+    }
+  }
+  &_purple {
+    &:hover {
+      color: $purpleColor;
+    }
+    &:hover:before, &:hover:after {
+      border-left-color: $purpleColor;
+      background-color: $purpleColor;        
+    }
+  }  
+}

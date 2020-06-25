@@ -1,0 +1,45 @@
+{
+  "name": "profiles",
+  "description": "User profiles, with reports, statistic and functions to control e-learning process",
+  "version": "2.0.1",
+  "author": "Poyta Nikolay",
+  "main": "webpack.config.js",
+  "scripts": {
+    "prod": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "hot": "webpack-dev-server --hot --open"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "dependencies": {
+    "vue": "2.6.11",
+    "axios": "0.19.0",
+    "vuex": "3.4.0"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3",
+    "vue-router": "3.1.5",
+    "css-loader": "1.0.0",
+    "node-sass": "4.13.0",
+    "sass-loader": "8.0.0",
+    "ts-loader": "6.2.1",
+    "url-loader": "3.0.0",
+    "vue-class-component": "7.1.0",
+    "vue-loader": "15.4.2",
+    "vue-property-decorator": "8.3.0",
+    "vue-template-compiler": "2.6.11",
+    "webpack": "^4.41.2",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "^3.9.0",
+    "postcss-loader": "3.0.0",
+    "autoprefixer": "9.7.3",
+    "@babel/polyfill": "7.7.0",
+    "babel-loader": "8.0.0",
+    "@babel/preset-env": "7.7.6",
+    "@babel/core": "7.7.5",
+    "mini-css-extract-plugin": "0.9.0",
+    "vuex-class": "0.3.2"
+  }
+}
