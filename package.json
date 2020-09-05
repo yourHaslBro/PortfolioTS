@@ -22,7 +22,7 @@
     "typescript": "3.8.3",
     "vue-router": "3.1.5",
     "css-loader": "1.0.0",
-    "node-sass": "4.13.0",
+    "node-sass": "4.13.1",
     "sass-loader": "8.0.0",
     "ts-loader": "6.2.1",
     "url-loader": "3.0.0",
